@@ -23,3 +23,13 @@ return maxLength
 }
 const res = lengthOfLongestSubstring("abcabcabc")
 console.log(res)
+
+
+//////////////////////////////////////////////     simple way
+
+function countUnique(iterable) {
+    return new Set(iterable).size;
+  }
+  
+  console.log(countUnique('banana')); //=> 3
+  console.log(countUnique([5,6,5,6])); //=> 2
