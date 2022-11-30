@@ -1,7 +1,4 @@
-////////////// anagram comapair
-
-
-function countFreq(arry,arry1){
+function anagram(arry,arry1){
     if(arry.length!==arry1.length){
         return false;
     }
@@ -19,6 +16,5 @@ for(let j=0 ; j<arry1.length;j++){
 }
 return true;
 }
-const print =countFreq('hello','llheo')
+const print =anagram('hello','llheo')
 console.log(print)
-

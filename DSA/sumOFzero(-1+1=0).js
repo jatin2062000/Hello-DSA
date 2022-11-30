@@ -1,13 +1,13 @@
 function sumofZer(array){
     for(let i = 0 ; i<array.length;i++){
         for(let j = 1 ; j<array.length;i++){
-            if(array[i]+array[j]===0){
+            if(array[i]+array[j]===10){
                 return [array[i],array[j]]
             }
         }
     }
 }
-const result1 = sumofZer([-1,2,3,-8,5,6,7,8,-1,-2,-3,-4])
+const result1 = sumofZer([1,2,3,8,5,6,7,8,1,2,3,4])
 
 // time complexity (  O(n^2)  )
 // quadratic 

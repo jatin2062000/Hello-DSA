@@ -10,7 +10,7 @@ let max =0
 for(let i =0 ; i<array.length-num+1;i++){        //////   array.length = 4
    temp=0                                            ///////  total window size = 2 ///// 4-2+1=3
     for(let j=0;j<num;j++){
-        console.log(num)                            ///////  num ka mtlb hai loop 4 bar chale gya            
+        // console.log(num)                            ///////  num ka mtlb hai loop 4 bar chale gya            
         temp+=array[i+j]
     }
     if(temp>max){
